@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@100;200;400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+
+.container-about{
+    width: 70%;
+    height: 100vh;
+    margin: auto;
+    position: relative;
+
+}
+.about-heading{
+    display: flex;
+    align-items: center;
+    color: #b2b7cd;
+    
+}
+.about-heading i{
+    color: rgb(178, 99, 4);
+}
+.about-heading h1{
+    font-size:2.2rem;
+    padding: 20px 15px;
+    font-family: "Chivo Mono", monospace;
+}
+.line{
+    height: 2px;
+    width: 20vw;
+    background: rgb(178, 99, 4);
+}
+
+.About-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.about-text{
+    width: 50%;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    line-height: 3.5vh;
+    color:#a3a9c5 ;
+    padding: 3vh 0;
+    text-align: justify;
+}
+.img{
+    position: relative;
+    z-index: 100;
+}
+.img img{
+    border-radius: 5px;
+}
+
+
+
+.img::after{
+    content: '';
+    position: absolute;
+    border: 3px solid #8dc6ff;
+    background:#8dc6ff ;
+    border-radius: 5px;
+    width: 70%;
+    height: 70%;
+    top: 38%;
+    left: 38%;
+    z-index: -1;
+}
+.technologies{
+    display: grid;
+    grid-template-columns: repeat(2, minmax(140px, 200px));
+    gap: 0px 10px;
+    padding: 0 ;
+    margin: 10px 0px 0px;
+    overflow: hidden;
+    list-style: none;
+    font-family: "Chivo Mono", monospace;
+}
+.technologies p{
+padding:10px 0;
+}
+.technologies i {
+    font-size: .8rem;
+    color: rgb(169, 93, 0);
+}

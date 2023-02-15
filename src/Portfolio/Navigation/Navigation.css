@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@100;200;400;500;700&display=swap");
+
+.navigation {
+  position: sticky;
+  top: 0;
+  background-color: #15181e;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Chivo Mono", monospace;
+  color: #dbd8e3;
+  padding: 20px 5vw;
+  z-index: 101;
+}
+.nav-heading {
+  color: #8dc6ff;
+  font-size: 1.6rem;
+  letter-spacing: 0.2vw;
+  font-weight: 300;
+}
+
+.navigation ul {
+  display: flex;
+  align-items: center;
+  color: #c7c3d2;
+  list-style: none;
+}
+.navigation ul li i {
+  color: #8dc6ff;
+  font-size: .8rem;
+}
+.navigation ul li a {
+  text-decoration: none;
+  color: #b2b7cd;
+  padding: 0 1.5vw;
+  transition: 0.5s;
+ 
+}
+
+.navigation ul li a:hover {
+  color: #8dc6ff;
+}

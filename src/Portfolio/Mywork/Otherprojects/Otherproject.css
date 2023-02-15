@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@100;200;400;500;700&display=swap");
+.otherproject-container {
+  width: 60%;
+  height: 190vh;
+  margin: auto;
+  position: relative;
+}
+.otherproject-heading {
+  display: flex;
+  align-items: center;
+  color: #b2b7cd;
+  text-align: right;
+}
+.otherproject-heading i {
+  color: rgb(178, 99, 4);
+}
+.otherproject-heading h1 {
+  font-size: 2.2rem;
+  padding: 20px 15px;
+  font-family: "Chivo Mono", monospace;
+}
+.line {
+  height: 2px;
+  width: 20vw;
+  background: rgb(178, 99, 4);
+}
+
+.project-links {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-around;
+  margin: 20px 0;
+}
+.otherproject-image {
+  width: 40%;
+  margin: 20px 0;
+  color: #b2b7cd;
+}
+
+.otherproject-image img {
+  width: 100%;
+  height: 150%;
+  border-radius: 5px;
+  transition: .5s;
+}
+.otherproject-image img:hover{
+    transform: scale(1.1);
+}

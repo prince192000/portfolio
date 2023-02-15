@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@100;200;400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+.mywork-container{
+    width: 70%;
+   height: 250vh;
+    margin: auto;
+    position: relative;
+}
+.mywork-heading{
+    display: flex;
+    align-items: center;
+    color: #b2b7cd;
+    
+}
+.mywork-heading i{
+    color: rgb(178, 99, 4);
+}
+.mywork-heading h1{
+    font-size:2.2rem;
+    padding: 20px 15px;
+    font-family: "Chivo Mono", monospace;
+}
+.line{
+    height: 2px;
+    width: 20vw;
+    background: rgb(178, 99, 4);
+}
+
+.project-container{
+    display: flex;
+    align-items: center;
+    margin: 10vh 0;
+    padding: 10px;
+    color:#b2b7cd ;
+}
+.project1-img{
+    width: 50%;
+}
+.project1-img img{
+    width: 120%;
+    height: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.project-info{
+    width: 50%;
+    position: relative;
+    text-align: right;
+}
+.project-heading{
+    font-family: "Chivo Mono", monospace;
+    font-size: 2rem;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.project-heading:hover{
+    color: #8dc6ff;
+}
+.project-para{
+    background: #112946;
+    color: #b2b7cd;
+    padding: 10px;
+    
+    margin: 20px 0;
+    font-size: 20px;
+    border-radius: 5px;
+    font-family: "Roboto", sans-serif;
+}
+.lang-used{
+    font-family:"Chivo Mono", monospace ;
+    font-weight:200;
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+.icon-project a{
+    text-decoration: none;
+}
+.icon-project a i{
+    font-size: 1.3rem;
+margin: 0 5px ;
+   
+    color:#b2b7cd ;
+}
+.icon-project a i:hover{
+    color:#8dc6ff ;
+}
+.project-info1{
+    text-align: left;
+ 
+}
+.project-para1{
+    width: 120%;
+    z-index: 1;
+
+}
+

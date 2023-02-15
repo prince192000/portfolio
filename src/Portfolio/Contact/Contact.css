@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@100;200;400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+
+.contactme-container{
+    width: 50%;
+    height: 80vh;
+    margin: auto;
+    position: relative;
+    
+
+}
+.contactme-heading{
+    display: flex;
+    align-items: center;
+    color: #b2b7cd;
+    text-align: center;
+}
+.contactme-heading i{
+    color: rgb(178, 99, 4);
+}
+.contactme-heading h1{
+    font-size:2.2rem;
+    padding: 20px 15px;
+    font-family: "Chivo Mono", monospace;
+}
+.line{
+    height: 1px;
+    width: 20vw;
+    background: rgb(178, 99, 4);
+}
+.contactme-para{
+    text-align: center;
+    font-size: 20px;
+    line-height: 4.5vh;
+    color: #b2b7cd;
+    margin: 20px 0;
+    font-family: "Roboto", sans-serif;
+}
+.contactme-para p span{
+    color:#8dc6ff;
+}
+.contact-btn{
+margin: auto;
+margin-top: 30px ;
+    border: 2px solid #ffffff;
+    background:rgb(169, 93, 0) ;
+    width: 20%;
+    padding: 7px 20px;
+    cursor: pointer;
+    text-align: center;   
+}
+.contact-btn a{
+    font-size: 17px;
+    text-decoration: none;
+    color: #ffffff;
+    font-family: "Chivo Mono", monospace;font-weight: 200;
+
+}
